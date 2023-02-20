@@ -1,0 +1,533 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(./Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(./Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "yoko smile";
+    src: url(./yoko-smile/Yoko\ Smile\ Regular.otf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    color: none;
+}
+
+/* header */
+
+img {
+    max-width: 100%;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+
+} 
+
+a:visited{
+    color: white;
+} 
+
+a:focus{
+    background-color: #896a30ff;
+} 
+
+a:hover{
+    background-color: #896a30ff;
+}
+
+a:active{
+    background-color: #010000ff;
+}
+
+body{
+    background-color: black;
+    font-family: Raleway, Arial, sans-serif;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.786);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    z-index: 10;
+}
+
+main {
+    padding-top: 8%;
+}
+
+.menu1 {
+    color: #896a30ff;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px;
+}
+
+.menu1 li a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.menu2 {
+    color: #896a30ff;
+    
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+}
+
+.menu2 li a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.logo {    
+    width: 100%;
+    max-width: 100px;
+    object-fit: contain;
+   
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+/* Main Index */
+
+main {
+    background-color: #010000ff;
+}
+
+.sectionIndex1 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.imagenIndex img{
+    width: 45vw;
+    /* max-width: 600px; */
+    margin-right: 20px;
+}
+
+.imagenIndex {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.textoBienvenida {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.textoBienvenida img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 120px;
+}
+
+.textoBienvenida h1 {
+    color: #ECCA70;
+    font-size: 15vw;
+}
+
+.textoBienvenida h2 {
+    font-family: 'yoko smile', cursive;
+    color: #e7bb5c;
+    font-size: 7.5vw;
+    font-style: italic;
+}
+
+.sectionIndex2{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.certificacionPetIndex {
+    background-color: #896A30;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.certificacionPetIndex img {
+    width: 100%;
+    float: left;
+    padding: 1.4vw;
+}
+
+.certificacionPetIndex p {
+    font-size: 1.4vw;
+    font-style: italic;
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+    text-align: justify;
+    color: black;
+}
+
+/* main nosotros */
+
+.sectionNosotros1 {
+    background-image: url(../IMAGENES/historia\ nosotros.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 20px
+}
+
+.divNosotros {
+    background-color: #896a307a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.sectionNosotros1 img {
+    width: 25%;
+    float: left;
+}
+
+.h1Nosotros {
+    color: white;
+    font-family: yoko smile, arial;    
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.pNosotros {
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.sectionNosotros2 {
+    background-image: url(../IMAGENES/mision\ nosotros.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.sectionNosotros2 img {
+    float: right;
+    width: 30%;
+    padding: 10px;  
+    border-image: 10%;  
+}
+
+.sectionNosotros3 {
+    background-image: url(../IMAGENES/visionNosotros.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.sectionNosotros3 img {
+    float: right;
+    width: 20%;
+    right: 20%;
+    padding: 20px;  
+    border-image: 10%;
+}
+
+/* Main menu */
+
+.justificacionTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetasMenu {
+    padding: 50px;
+    gap: 30px;
+    display: flex;    
+}
+
+.h1Titulo {
+    color: #E7BB5C;
+    font-family: yoko smile, arial;    
+    font-size: 80px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.tituloMenu div {
+    text-align: center;
+}
+
+.hrDivisioTotulo {
+        border-color: #ECCA70;
+        margin-left: 160px;
+        margin-right: 160px;
+        display: flex;
+}
+
+.divMenu {
+    width: 100%;
+    background-color: #896A30;
+    padding: 20px;
+    border-radius: 6%;
+    text-align: center;
+} 
+
+.imgMenu {
+    width: 100%;
+    border-radius: 6%;
+    margin-bottom: 30px;
+}
+
+.divMenu h2 {
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.divMenu p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Main Galeria */
+
+.sectionGaleria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.divGaleria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.imgGaleria {
+    width: 28.25vw;
+    height: 20.75vw;
+    object-fit: cover;
+    padding: 20px;
+}
+
+/* Main Reservas */
+
+/* .mainReservas {
+    display: flex;
+    justify-content: center;
+} */
+
+.sectionReservas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divReservas {
+    color: #ECCA70;
+    padding: 10px;
+    text-align: center;
+}
+
+.h2Reservas {
+    margin: 20px;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.divReservas p {
+    margin: 15px;
+}
+
+.h3Reservas {
+    margin: 30px;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.sectionReserasForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formReservas {
+    background-color: #896A30;
+    width: 100%;
+    max-width: 350px; 
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+    color: black;
+    margin: 20px;
+    font-weight: bold;
+    border-radius: 3%;
+}
+
+.formReservas label, .formReservas input, .formReservas textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.divBotonesReservas {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+ .formReservas input, .formReservas textarea {
+    font-family: 'Raleway', Arial;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ECCA70;
+    outline: none;
+}
+
+.divBotonesReservas button {
+    font-family: 'Raleway', Arial;
+    background-color: #ECCA70;
+    border: none;
+    width: 60px;
+    border-radius: 4px;
+}
+
+.divBotonesReservas button:hover {
+    background-color: #E7BB5C;
+    cursor: pointer; cursor: hand;
+}
+
+/*Footer*/
+
+.contenedorFooter {
+    width: 100%;
+    padding: 30px 0;
+    background-color: #E7BB5C;
+
+}
+
+.contenedorFooter footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contenedorFooter footer .logoFooter {
+    text-align: center;
+}
+
+.logoFooter img {
+    width: 100px;
+    opacity: 0.65;
+}
+
+.contenedorFooter footer .redesFooter {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.infoFooter img {
+    width: 20px;
+}
+
+.infoFooter {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.infoFooter p {
+    display: inline-flex;
+    justify-content: center;
+    vertical-align: top;
+    margin-right: 15px;
+    gap: 10px;
+
+}
+
+.redesFooter a img {
+    width: 40px;
+    right: 40px;
+    font-size: 20px;
+    padding: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.redesFooter .iconRedesMouse:hover {
+    background: #ECCA70;
+    color: white;
+}
+
+hr {
+    border-color: black;
+}
+
+h4 {
+    font-size: small;
+    font-weight: normal;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
